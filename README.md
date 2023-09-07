@@ -6,6 +6,11 @@
     pip install pyautogui
     pip install requests
     ```
+1. Create copy `.env` file.
+    ```cmd
+    copy .env.example .env
+    ```
+1. Edit `.env` file.
 1. Run python script.
     ```cmd
     python src/main.py
