@@ -1,17 +1,8 @@
-## Development
+I can't install `python-decouple` and `pyautogui` on `Win10x86`.
 
-1. Install [Python 3.11.4 amd64][https://www.python.org/downloads/].
-1. Install packages.
-    ```cmd
-    pip install pyautogui
-    pip install requests
-    ```
-1. Create copy `.env` file.
-    ```cmd
-    copy .env.example .env
-    ```
-1. Edit `.env` file.
-1. Run python script.
-    ```cmd
-    python src/main.py
-    ```
+| Package         | Win10x64 | Win10x86 | Win10x86_64 |
+| --------------- | :------: | :------: | :---------: |
+| pyautogui       | Yes      | -        | -           |
+| requests        | Yes      | Yes      | Yes         |
+| python-decouple | Yes      | -        | -           |
+| mss             | Yes      | Yes      | Yes         |
